@@ -1,0 +1,12 @@
+ID 	 SPEED
+------	-------
+1 	 56<---exceeded
+3 	 88<---exceeded
+4 	 63<---exceeded
+
+-------------
+-------------
+SUMMARY
+-------------
+Total Vehicles :	3
+Exceeded speed limit :	3
