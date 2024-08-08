@@ -5,7 +5,7 @@ Automatic Vehicle Recongnization System
 
 # Vehicle-recognization Screenshots
 
-1) Login Page
+1) Login Page:-
 ![image](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/ac3ea894-10f9-4f53-ac1f-74dbb5e1bfe3)
  
 2) dashboard:-
