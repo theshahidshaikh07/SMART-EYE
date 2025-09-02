@@ -1,8 +1,5 @@
 # SMART-EYE (Automatic Vehicle Number Plate Detection)
 
-[![License](https://img.shields.io/github/license/theshahidshaikh07/SMART-EYE)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-
 SMART EYE is a Python-based system for vehicle monitoring and management, featuring counting, speed detection, classification, and Automatic Number Plate Recognition (ANPR).
 
 ---
