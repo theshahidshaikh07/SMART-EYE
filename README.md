@@ -73,18 +73,6 @@ SMART EYE is a Python-based system for vehicle monitoring and management, featur
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please open an issue or pull request for suggestions or improvements.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Help
 
 For help or questions, please email: theshahidshaikh7@gmail.com
