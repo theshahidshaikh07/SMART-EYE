@@ -1,78 +1,90 @@
 # SMART-EYE (Automatic Vehicle Number Plate Detection)
-SMART EYE is a Python-based system that monitors and manages vehicles through comprehensive features like counting, speed detection, classification, and number plate detection, offering safety and data-driven insights across various sectors, including traffic, law enforcement, and transportation.
 
-# Vehicle-recognization
-Automatic Vehicle Recongnization System
+[![License](https://img.shields.io/github/license/theshahidshaikh07/SMART-EYE)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
-# Vehicle-recognization Screenshots
+SMART EYE is a Python-based system for vehicle monitoring and management, featuring counting, speed detection, classification, and Automatic Number Plate Recognition (ANPR).
 
-1) Login Page:-
-![image](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/ac3ea894-10f9-4f53-ac1f-74dbb5e1bfe3)
- 
-2) dashboard:-
-![image](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/6fe720b8-6e61-443a-9816-2fc770b48789)
+---
 
-3) Count:-
-![image](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/17c2bb31-0730-438b-a7ec-a77aea43e8b9)
+## Features
+- Vehicle counting
+- Speed detection
+- Vehicle classification
+- Automatic number plate detection
 
-4) Speed:-
-![image](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/92ead0b1-c9d7-47e8-b433-5e4a857f065f)
+---
 
-5) Category:-
-![image](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/e44578e6-7e06-4755-a8e3-57bb22c57c6b)
+## Visual Overview
 
-6) Number Plate:-
-![image](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/410fd9ad-f23b-4686-86f3-51013a293cc8)
+### Login Page
+![Login Page](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/ac3ea894-10f9-4f53-ac1f-74dbb5e1bfe3)
 
-7) Folder Structure for ANPR Dataset/ Records:-
-   
-![image](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/fa17a0ea-1c38-4112-bcb3-ebcba895f5db)
+### Dashboard
+![Dashboard](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/6fe720b8-6e61-443a-9816-2fc770b48789)
 
+### Count
+![Count](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/17c2bb31-0730-438b-a7ec-a77aea43e8b9)
 
-# Follow below steps to Set-Up the Project.
+### Speed
+![Speed](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/92ead0b1-c9d7-47e8-b433-5e4a857f065f)
 
-# Automatic Number Plate Recognition (ANPR) Project
+### Category
+![Category](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/e44578e6-7e06-4755-a8e3-57bb22c57c6b)
 
-## Prerequisites
+### Number Plate
+![Number Plate](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/410fd9ad-f23b-4686-86f3-51013a293cc8)
 
-- Install and import the necessary packages.
+### Folder Structure for ANPR Dataset/ Records
+![Folder Structure](https://github.com/gauravtanpure/Vehicle-recognization/assets/147535321/fa17a0ea-1c38-4112-bcb3-ebcba895f5db)
 
-## Installation and Setup
+---
 
-1. **Create Folders and Add Files:**
+## Setup Instructions
+
+### Prerequisites
+- Python 3.8+
+- Required Python packages (see `requirements.txt`)
+
+### Installation and Setup
+
+1. **Clone this repository**
+2. **Create Folders and Add Files:**
    - Create a folder named `ANPR` and add all the project files to it.
    - Store the `haarcascade_russian_plate_number.xml` file in the `D:` drive.
 
-2. **Folder Structure:**
-   - Ensure the following folder structure exists:
-     ```
-     D:\ANPR Dataset\TrafficRecord\exceeded
-     D:\ANPR Dataset\number.xlsx
-     D:\ANPR Dataset\vehicle_count.xlsx
-     ```
+3. **Folder Structure:**
+   ```
+   D:\ANPR Dataset\TrafficRecord\exceeded
+   D:\ANPR Dataset\number.xlsx
+   D:\ANPR Dataset\vehicle_count.xlsx
+   ```
 
-3. **Running the Project:**
+4. **Running the Project:**
    - Execute `Loginpage.py`.
    - Login Credentials:
      - Username: `Admin`
      - Password: `ANPR`
 
-## Required Files
+### Required Files
+- Haar Cascade XML: `haarcascade_russian_plate_number.xml` (store in `D:` drive)
+- Excel Files: `number.xlsx` and `vehicle_count.xlsx` in `D:\ANPR Dataset\`
+- Additional resources: [Google Drive link](https://drive.google.com/drive/folders/16ztNa-8_NSg71VnO6RgFQB2Hqms5yEMW?usp=drive_link)
 
-- Haar Cascade XML:
-  - `haarcascade_russian_plate_number.xml` should be stored in the `D:` drive.
+---
 
-- Excel Files:
-  - `number.xlsx` and `vehicle_count.xlsx` must be present in `D:\ANPR Dataset\`.
- 
-  - The above folder is also given in repository.
+## Contributing
 
-## Additional Resources
-Download following files and store it in the main folder.
+Contributions are welcome! Please open an issue or pull request for suggestions or improvements.
 
-https://drive.google.com/drive/folders/16ztNa-8_NSg71VnO6RgFQB2Hqms5yEMW?usp=drive_link
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
 
 ## Help
-If you need any type of help you can mail me on theshahidshaikh7@gmail.com
 
-
+For help or questions, please email: theshahidshaikh7@gmail.com
